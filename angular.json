@@ -1,6 +1,8 @@
 {
   "version": 2,
   "projects": {
+    "my-next-app": "apps/my-next-app",
+    "my-next-app-e2e": "apps/my-next-app-e2e",
     "tuskdesk": "apps/tuskdesk",
     "tuskdesk-e2e": "apps/tuskdesk-e2e"
   }

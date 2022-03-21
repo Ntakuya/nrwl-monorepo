@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+yarn nx affected:lint --parallel=5
+yarn nx format:check --parallel=5
+yarn nx affected:test --parallel=5
